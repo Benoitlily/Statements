@@ -187,7 +187,13 @@
     font-size: 1.5rem;
   }
 
+  .u-section-1 .u-icon-2 {
+    margin-top: 20px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
   .u-section-1 .u-gallery-1 {
-    height: 6088px;
+    height: 5679px;
   }
 }

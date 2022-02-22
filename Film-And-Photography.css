@@ -113,7 +113,7 @@
   }
 
   .u-section-1 .u-gallery-1 {
-    height: 1674px;
+    height: 1673px;
     grid-template-columns: auto;
     margin-right: initial;
   }
@@ -133,8 +133,13 @@
     margin-right: 0;
   }
 
+  .u-section-1 .u-icon-1 {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
   .u-section-1 .u-gallery-1 {
-    height: 1054px;
+    height: 1053px;
     margin-right: initial;
   }
 }
