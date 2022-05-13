@@ -1,14 +1,18 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("images/WhatsAppImage2020-09-15at10.46.321.jpeg");
+  min-height: 953px;
 }
 
-.u-section-1 .u-sheet-1 {
-  min-height: 953px;
+.u-section-1 .u-image-1 {
+  filter: brightness(0.3);
+  height: 961px;
+  margin-top: 0;
+  margin-bottom: 0;
+  object-position: 24.76% 50%;
 }
 
 .u-section-1 .u-list-1 {
   width: 710px;
-  margin: 30px auto 0;
+  margin: -931px auto 0 calc(((100% - 1140px) / 2) + 215px);
 }
 
 .u-section-1 .u-repeater-1 {
@@ -98,7 +102,7 @@
   width: 710px;
   min-height: 580px;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
-  margin: 49px auto 60px;
+  margin: 49px auto 0 calc(((100% - 1140px) / 2) + 215px);
 }
 
 .u-section-1 .u-container-layout-4 {
@@ -142,17 +146,12 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-1 {
-    background-position: 50% 50%;
-  }
-
-  .u-section-1 .u-sheet-1 {
-    min-height: 943px;
+  .u-section-1 .u-image-1 {
+    margin-top: 298px;
   }
 
   .u-section-1 .u-list-1 {
-    height: auto;
-    margin-top: 25px;
+    margin-top: -744px;
   }
 
   .u-section-1 .u-container-layout-2 {
@@ -174,24 +173,17 @@
 }
 
 @media (max-width: 991px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 1198px;
+  .u-section-1 .u-image-1 {
+    margin-top: 0;
   }
 
   .u-section-1 .u-list-1 {
-    margin-top: 436px;
+    margin-top: -931px;
   }
 
   .u-section-1 .u-repeater-1 {
     grid-template-columns: calc(50% - 10.5px) calc(50% - 10.5px);
     min-height: 678px;
-  }
-
-  .u-section-1 .u-group-1 {
-    width: 618px;
-    min-height: 632px;
-    margin-top: -242px;
-    margin-bottom: 0;
   }
 
   .u-section-1 .u-container-layout-4 {
@@ -202,13 +194,9 @@
 }
 
 @media (max-width: 767px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 1181px;
-  }
-
   .u-section-1 .u-list-1 {
     width: 540px;
-    margin-top: 418px;
+    margin-left: calc(((100% - 1140px) / 2) + 300px);
   }
 
   .u-section-1 .u-container-layout-1 {
@@ -242,8 +230,8 @@
   }
 
   .u-section-1 .u-group-1 {
-    width: 499px;
-    margin-top: -259px;
+    width: 540px;
+    margin-left: calc(((100% - 1140px) / 2) + 300px);
   }
 
   .u-section-1 .u-container-layout-4 {
@@ -263,13 +251,9 @@
 }
 
 @media (max-width: 575px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 1461px;
-  }
-
   .u-section-1 .u-list-1 {
     width: 340px;
-    margin-top: 60px;
+    margin-left: calc(((100% - 1140px) / 2) + 400px);
   }
 
   .u-section-1 .u-repeater-1 {
@@ -277,12 +261,8 @@
   }
 
   .u-section-1 .u-group-1 {
-    min-height: 516px;
-    margin-top: 47px;
-    margin-bottom: 60px;
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
+    width: 340px;
+    margin-left: calc(((100% - 1140px) / 2) + 400px);
   }
 
   .u-section-1 .u-container-layout-4 {
@@ -295,8 +275,6 @@
   }
 
   .u-section-1 .u-form-1 {
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
+    width: 320px;
   }
 }
